@@ -1,0 +1,28 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/vkpkumar10/express-js#readme",
+  "bugs": {
+    "url": "https://github.com/vkpkumar10/express-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkpkumar10/express-js.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.mjs",
+    "start": "node ./src/index.mjs"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+  ,
+  "types": "module"
+}
