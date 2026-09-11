@@ -32,6 +32,7 @@ app.get("/api/products", (req, res) => {
     { id: 3, productname: "Gold", Price: 30.99 },
     { id: 4, productname: "Platinum", Price: 40.99 },
     { id: 5, productname: "Diamond", Price: 175.99 },
+    { id: 6, productname: "Ruby", Price: 100.99 },
   ]);
 });
 
