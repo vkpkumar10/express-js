@@ -93,4 +93,8 @@ Returns the current mock product list:
 
 ## Testing
 
-No automated tests are configured yet. The `npm test` command currently exits with a placeholder error.
+The project includes a Jest test suite using `supertest` to validate the Express routes.
+
+```bash
+npm test
+```
